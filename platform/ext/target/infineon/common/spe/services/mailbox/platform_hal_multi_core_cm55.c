@@ -13,10 +13,11 @@
 #include "config_tfm.h"
 
 #include "cy_ipc_drv.h"
-#include "fih.h"
+
 #include "ifx_platform_mailbox.h"
 #include "ifx_regions.h"
 #ifdef TFM_FIH_PROFILE_ON
+#include "fih.h"
 #include "psa/service.h" /* Used for psa_panic */
 #endif /* TFM_FIH_PROFILE_ON */
 #include "tfm_hal_multi_core.h"
